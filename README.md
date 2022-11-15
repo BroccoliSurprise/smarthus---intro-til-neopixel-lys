@@ -2,17 +2,7 @@
 
 ```template
 let strip = neopixel.create(DigitalPin.P2, 5, NeoPixelMode.RGB)
-strip.clear()
 strip.showColor(neopixel.colors(NeoPixelColors.Blue))
-basic.pause(250)
-strip.setPixelColor(2, neopixel.rgb(255, 255, 255))
-strip.show()
-basic.forever(function () {
-	
-})
-basic.forever(function () {
-})
-
 ```
 
 
@@ -73,4 +63,17 @@ Når du føler deg fornøyd, kan du trykke på "Avslutt / Finish" for å gå til
 Hvis du har lyst å utforske hvordan du kan få lyset til å bevege seg, kan du kikke på "Bli bedre kjent med NeoPixler"-veiledningen.
 
 
+```blocks
+let strip = neopixel.create(DigitalPin.P2, 5, NeoPixelMode.RGB)
+strip.clear()
+strip.showColor(neopixel.colors(NeoPixelColors.Blue))
+basic.pause(250)
+strip.setPixelColor(2, neopixel.rgb(255, 255, 255))
+strip.show()
+basic.forever(function () {
+	
+})
+basic.forever(function () {
+})
 
+```
