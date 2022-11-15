@@ -1,23 +1,18 @@
 # Intro til NeoPixel - lys
 
-```ghost
+```template
 let strip = neopixel.create(DigitalPin.P2, 5, NeoPixelMode.RGB)
-strip.shift(1)
-strip.rotate(1)
-strip.setPixelColor(0, neopixel.rgb(255, 255, 255))
-strip.show()
 strip.clear()
+strip.showColor(neopixel.colors(NeoPixelColors.Blue))
+basic.pause(250)
+strip.setPixelColor(2, neopixel.rgb(255, 255, 255))
+strip.show()
 basic.forever(function () {
 	
 })
 basic.forever(function () {
-    basic.pause(100)
 })
-```
 
-```template
-let strip = neopixel.create(DigitalPin.P2, 5, NeoPixelMode.RGB)
-strip.showColor(neopixel.colors(NeoPixelColors.Blue))
 ```
 
 
