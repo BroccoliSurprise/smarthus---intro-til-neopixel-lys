@@ -66,13 +66,11 @@ Hvis du har lyst å utforske hvordan du kan få lyset til å bevege seg, kan du 
 ```blocks
 let strip = neopixel.create(DigitalPin.P2, 5, NeoPixelMode.RGB)
 strip.clear()
-strip.showColor(neopixel.colors(NeoPixelColors.Blue))
-basic.pause(250)
-strip.setPixelColor(2, neopixel.rgb(255, 255, 255))
+strip.showColor(neopixel.colors(NeoPixelColors.Red))
+strip.setPixelColor(2, neopixel.rgb(70, 40, 120))
+basic.pause(500)
 strip.show()
-basic.forever(function () {
-	
-})
+
 basic.forever(function () {
 })
 
