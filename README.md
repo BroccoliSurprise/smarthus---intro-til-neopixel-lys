@@ -70,7 +70,7 @@ strip.showColor(neopixel.colors(NeoPixelColors.Red))
 strip.setPixelColor(2, neopixel.rgb(70, 40, 120))
 basic.pause(500)
 strip.show()
-strip.rotate()
+strip.rotate(1)
 
 basic.forever(function () {
 })
