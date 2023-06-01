@@ -76,3 +76,9 @@ basic.forever(function () {
 })
 
 ```
+
+```ghost
+strip.show()
+strip.showRainbow(1, 360)
+strip.rotate(1)
+```
